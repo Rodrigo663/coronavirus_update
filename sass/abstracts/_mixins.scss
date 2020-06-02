@@ -1,0 +1,24 @@
+// 
+@mixin block-center {
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+@mixin center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@mixin moveUp {
+    transform: translateX(-50%) translateY(-5%);
+
+
+    text-shadow: 0.5rem 1rem 2rem rgba($black, 0.2);
+
+}

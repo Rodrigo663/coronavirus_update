@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=oro" />
+    
+    <title>Coronavirus Update | Latest Update</title>
+    
+    <!--GOOGLE FONTS-->
+    <link rel="icon" href="img/170-512.png">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    
+    <!--BOOTSTRAP-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    
+    <!--CSS-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+     <!--FONTS AND ICONS-->
+
+
+    <link rel="stylesheet" href="css/styles.css" />
+
+     <!--CHARTS-->
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  </head>
+  <body>
+   <!--HEADER-->
+    
+  <header class="header">
+    <div class="gradient">
+      <div class="gradient__logo-box">
+          <img src="img/icon.png" alt="icon" class="gradient__icon">
+      </div>
+      <div class="gradient__box">
+        <h1 class="gradient__box--title">Coronavirus Update</h1>
+      </div>
+      <div class="gradient__text-box">
+        <h2 class="gradient__sub">Cases</h2>
+        <p class="gradient__value">5,030,230</p>
+        <h2 class="gradient__sub">Deaths</h2>
+        <p class="gradient__value">350,000</p>
+        <h2 class="gradient__sub">Recovered</h2>
+        <p class="gradient__value">2,000,000</p>
+        
+      </div>
+    </div>
+  
+  </header>
+  <!--MAIN-->
+
+
+  <main>
+      <section class="section-charts">
+            <div class="heading-box">
+              <h1 class="heading-secondary">What the data can say for us</h1>
+
+            </div>
+            
+          
+              <h1 class="heading-tertiary">Global Cases</h1>
+
+         
+
+            
+            <div class="chart-box">
+                  <div id="curve_chart" class='chart'></div>
+
+            </div>
+            <h1 class="heading-tertiary">Global Deaths</h1> 
+
+            <div class="chart-box">
+              <div id="curve_chart-2" class='chart'></div>
+
+            </div>
+
+            <h1 class="heading-tertiary">Global Recovered</h1> 
+
+            <div class="chart-box">
+              <div id="curve_chart-3" class='chart'></div>
+
+            </div>
+
+
+
+        </div>
+
+      
+      </section>
+
+      <section class='section-continent'>
+        <div id="example-table"></div>
+      </section>
+  </main>
+  </body>
+
+
+  <!--JQUERY-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='script.js' charset='utf-8'></script>
+</html>
