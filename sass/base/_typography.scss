@@ -128,8 +128,21 @@ body {
 
   &:hover {
       @include moveUp;
-    
+     
 
   }
+
+}
+
+.heading-country {
+    color: $dark-2;
+    font-size: 6rem;
+    @include center;
+    top: 40%;
+    transition: all .3s;
+    &:hover {
+      text-shadow: .5rem 1rem 2rem rgba($black, .4);
+     
+    }
 
 }
